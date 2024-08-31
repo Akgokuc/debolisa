@@ -15,65 +15,31 @@ section{
 .main{
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 25vh;
   display: flex;
   align-items: center;
   background: url(images/bg.jpg)no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  top:25vh;
 }
 
 .main .content{
   max-width: 800px;
 }
 
-.main .content h2{
-  color: #fff;
-  font-size: 2em;
-  font-weight: 500;
-}
 
-.main .content h2 span{
-  font-size: 2.8em;
-  font-weight: 600;
-}
-
-.animated-text{
-  position: relative;
-  height: 70px;
-  overflow: hidden;
-}
-
-.animated-text h3{
+.main .content h1{
   color: #1e2024;
-  font-size: 3em;
-  font-weight: 700;
+  font-size: 25vh;
+  font-weight: 1400;
   line-height: 70px;
   letter-spacing: 1px;
 }
 
-.animated-text h3:nth-child(1){
-  animation: text-move 10s infinite;
-}
 
-@keyframes text-move{
-  0%{
-    margin-top: 0;
-  }
-  25%{
-    margin-top: -70px;
-  }
-  50%{
-    margin-top: -140px;
-  }
-  75%{
-    margin-top: -70px;
-  }
-  100%{
-    margin-top: 0;
-  }
-}
+
 
 .btn{
   color: #fff;
@@ -197,6 +163,9 @@ body{
   transform: translateX(-50%);
 }
 
+.about{
+  padding-top: 40vh;
+}
 .about .content{
   position: relative;
   width: 100%;
